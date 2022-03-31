@@ -1,0 +1,22 @@
+{
+  "version": 2,
+  "dgSpecHash": "tmI6n1PKGZp9DZuLrROHjgyJtsf3ZKKaiX39uwcMDmQREZqdzPH38KJj5E8afKTVx1QVFReMMUjWJqDHiJzUJA==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\USER\\source\\repos\\ExcelOLEObjects\\WinFormsApp2\\WinFormsApp2\\WinFormsApp2.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\USER\\.nuget\\packages\\netoffice.core.net40\\1.7.4.11\\netoffice.core.net40.1.7.4.11.nupkg.sha512",
+    "C:\\Users\\USER\\.nuget\\packages\\microsoft.netcore.app.host.win-x64\\5.0.11\\microsoft.netcore.app.host.win-x64.5.0.11.nupkg.sha512"
+  ],
+  "logs": [
+    {
+      "code": "NU1701",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Package 'NetOffice.Core.Net40 1.7.4.11' was restored using '.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8' instead of the project target framework 'net5.0-windows7.0'. This package may not be fully compatible with your project.",
+      "libraryId": "NetOffice.Core.Net40",
+      "targetGraphs": [
+        "net5.0-windows7.0"
+      ]
+    }
+  ]
+}

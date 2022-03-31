@@ -1,0 +1,135 @@
+{
+  "version": 3,
+  "targets": {
+    "net5.0-windows7.0": {
+      "NetOffice.Core.Net40/1.7.4.11": {
+        "type": "package",
+        "compile": {
+          "lib/net40/NetOffice.dll": {},
+          "lib/net40/OfficeApi.dll": {},
+          "lib/net40/VBIDEApi.dll": {}
+        },
+        "runtime": {
+          "lib/net40/NetOffice.dll": {},
+          "lib/net40/OfficeApi.dll": {},
+          "lib/net40/VBIDEApi.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "NetOffice.Core.Net40/1.7.4.11": {
+      "sha512": "IQglr8qwu6ssF6ONofNjYXmFyXcHSXu7TM7gOS+0o1kZLk4fKCm6E9c36Dqb4eiPHYVXp9U26rxDWGodFRZqYA==",
+      "type": "package",
+      "path": "netoffice.core.net40/1.7.4.11",
+      "hasTools": true,
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/net40/NetOffice.dll",
+        "lib/net40/NetOffice.xml",
+        "lib/net40/OfficeApi.dll",
+        "lib/net40/OfficeApi.xml",
+        "lib/net40/VBIDEApi.dll",
+        "lib/net40/VBIDEApi.xml",
+        "netoffice.core.net40.1.7.4.11.nupkg.sha512",
+        "netoffice.core.net40.nuspec",
+        "tools/install.ps1"
+      ]
+    }
+  },
+  "projectFileDependencyGroups": {
+    "net5.0-windows7.0": [
+      "NetOffice.Core.Net40 >= 1.7.4.11"
+    ]
+  },
+  "packageFolders": {
+    "C:\\Users\\USER\\.nuget\\packages\\": {},
+    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
+  },
+  "project": {
+    "version": "1.0.0",
+    "restore": {
+      "projectUniqueName": "C:\\Users\\USER\\source\\repos\\ExcelOLEObjects\\WinFormsApp2\\WinFormsApp2\\WinFormsApp2.csproj",
+      "projectName": "WinFormsApp2",
+      "projectPath": "C:\\Users\\USER\\source\\repos\\ExcelOLEObjects\\WinFormsApp2\\WinFormsApp2\\WinFormsApp2.csproj",
+      "packagesPath": "C:\\Users\\USER\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\USER\\source\\repos\\ExcelOLEObjects\\WinFormsApp2\\WinFormsApp2\\obj\\",
+      "projectStyle": "PackageReference",
+      "fallbackFolders": [
+        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+      ],
+      "configFilePaths": [
+        "C:\\Users\\USER\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+      ],
+      "originalTargetFrameworks": [
+        "net5.0-windows7.0"
+      ],
+      "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "https://api.nuget.org/v3/index.json": {}
+      },
+      "frameworks": {
+        "net5.0-windows7.0": {
+          "targetAlias": "net5.0-windows",
+          "projectReferences": {}
+        }
+      },
+      "warningProperties": {
+        "warnAsError": [
+          "NU1605"
+        ]
+      }
+    },
+    "frameworks": {
+      "net5.0-windows7.0": {
+        "targetAlias": "net5.0-windows",
+        "dependencies": {
+          "NetOffice.Core.Net40": {
+            "target": "Package",
+            "version": "[1.7.4.11, )"
+          }
+        },
+        "imports": [
+          "net461",
+          "net462",
+          "net47",
+          "net471",
+          "net472",
+          "net48"
+        ],
+        "assetTargetFallback": true,
+        "warn": true,
+        "downloadDependencies": [
+          {
+            "name": "Microsoft.NETCore.App.Host.win-x64",
+            "version": "[5.0.11, 5.0.11]"
+          }
+        ],
+        "frameworkReferences": {
+          "Microsoft.NETCore.App": {
+            "privateAssets": "all"
+          },
+          "Microsoft.WindowsDesktop.App.WindowsForms": {
+            "privateAssets": "none"
+          }
+        },
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.100-rc.2.21505.57\\RuntimeIdentifierGraph.json"
+      }
+    }
+  },
+  "logs": [
+    {
+      "code": "NU1701",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Package 'NetOffice.Core.Net40 1.7.4.11' was restored using '.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8' instead of the project target framework 'net5.0-windows7.0'. This package may not be fully compatible with your project.",
+      "libraryId": "NetOffice.Core.Net40",
+      "targetGraphs": [
+        "net5.0-windows7.0"
+      ]
+    }
+  ]
+}

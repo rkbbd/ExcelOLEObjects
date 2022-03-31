@@ -1,0 +1,49 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v5.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v5.0": {
+      "WinFormsApp2/1.0.0": {
+        "dependencies": {
+          "NetOffice.Core.Net40": "1.7.4.11"
+        },
+        "runtime": {
+          "WinFormsApp2.dll": {}
+        }
+      },
+      "NetOffice.Core.Net40/1.7.4.11": {
+        "runtime": {
+          "lib/net40/NetOffice.dll": {
+            "assemblyVersion": "1.7.4.11",
+            "fileVersion": "1.7.3.0"
+          },
+          "lib/net40/OfficeApi.dll": {
+            "assemblyVersion": "1.7.4.11",
+            "fileVersion": "1.7.3.0"
+          },
+          "lib/net40/VBIDEApi.dll": {
+            "assemblyVersion": "1.7.4.11",
+            "fileVersion": "1.7.3.0"
+          }
+        }
+      }
+    }
+  },
+  "libraries": {
+    "WinFormsApp2/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "NetOffice.Core.Net40/1.7.4.11": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-IQglr8qwu6ssF6ONofNjYXmFyXcHSXu7TM7gOS+0o1kZLk4fKCm6E9c36Dqb4eiPHYVXp9U26rxDWGodFRZqYA==",
+      "path": "netoffice.core.net40/1.7.4.11",
+      "hashPath": "netoffice.core.net40.1.7.4.11.nupkg.sha512"
+    }
+  }
+}
